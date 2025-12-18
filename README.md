@@ -1,4 +1,8 @@
-# AccuKnox User Management Automation
+# AccuKnox User Management Automation Tests
+
+## Application Under Test
+OrangeHRM Demo  
+https://opensource-demo.orangehrmlive.com
 
 ## Tech Stack
 - Playwright
@@ -8,22 +12,21 @@
 ## Playwright Version
 @playwright/test ^1.42.0
 
-## Setup Steps
+## Project Structure
+- pages/ → Page Object Model files
+- tests/ → Test scripts
+- package.json → Dependencies and scripts
+
+## How to Run Tests
 1. Clone the repository
 2. Run `npm install`
-3. Run `npx playwright install`
+3. Run `npx playwright test`
 
-## Run Tests
-npx playwright test
-
-## Test Coverage
-- Login
+## Test Scenarios Automated
+- Login to application
 - Navigate to Admin Module
-- Add User Validation
-- Search User
-- Edit User
-- Delete User
+- Search user validation (No Records Found)
 
-## Known Issues
-- Invalid Employee Name while adding new user
-- Search returns No Records Found for existing users
+## Known Issues Observed
+- Invalid Employee Name while adding a new user
+- Search returns "No Records Found" for existing users
