@@ -5,9 +5,9 @@ class DashboardPage {
   }
 
   async navigateToAdmin() {
-    await this.adminMenu.waitFor({ state: 'visible' });
     await this.adminMenu.click();
   }
 }
 
 module.exports = { DashboardPage };
+
