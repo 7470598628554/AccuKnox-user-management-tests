@@ -12,20 +12,19 @@ https://opensource-demo.orangehrmlive.com
 ## Playwright Version
 @playwright/test ^1.42.0
 
-## Project Structure
-- pages/ → Page Object Model files
-- tests/ → Test scripts
-- package.json → Dependencies and scripts
-
-## How to Run Tests
+## Project Setup
 1. Clone the repository
 2. Run `npm install`
-3. Run `npx playwright test`
+3. Run `npx playwright install`
 
-## Test Scenarios Automated
+## How to Run Tests
+npx playwright test
+
+## Automation Coverage
 - Login to application
 - Navigate to Admin Module
-- Search user validation (No Records Found)
+- User search validation
+- Handling "No Records Found" scenario
 
 ## Known Issues Observed
 - Invalid Employee Name while adding a new user
