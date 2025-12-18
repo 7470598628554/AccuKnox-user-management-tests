@@ -4,6 +4,10 @@
 OrangeHRM Demo  
 https://opensource-demo.orangehrmlive.com
 
+## Credentials
+Username: Admin  
+Password: admin123
+
 ## Tech Stack
 - Playwright
 - JavaScript
@@ -20,12 +24,12 @@ https://opensource-demo.orangehrmlive.com
 ## How to Run Tests
 npx playwright test
 
-## Automation Coverage
+## Test Coverage
 - Login to application
-- Navigate to Admin Module
+- Navigate to Admin module
 - User search validation
 - Handling "No Records Found" scenario
 
 ## Known Issues Observed
-- Invalid Employee Name while adding a new user
-- Search returns "No Records Found" for existing users
+- Invalid Employee Name error while adding a new user
+- Searching newly created or existing users sometimes returns "No Records Found"
