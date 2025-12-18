@@ -8,9 +8,9 @@ module.exports = defineConfig({
     browserName: 'chromium',
     headless: true,
     screenshot: 'on',
-    video: 'retain-on-failure',
-    actionTimeout: 15000
+    video: 'retain-on-failure'
   },
 
   reporter: [['html', { open: 'never' }]]
 });
+
