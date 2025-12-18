@@ -1,7 +1,7 @@
 {
   "name": "accuknox-user-management-tests",
   "version": "1.0.0",
-  "description": "Playwright automation for OrangeHRM User Management",
+  "description": "Automation tests for OrangeHRM User Management using Playwright",
   "scripts": {
     "test": "npx playwright test"
   },
